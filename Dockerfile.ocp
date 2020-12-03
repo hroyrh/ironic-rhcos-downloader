@@ -1,4 +1,4 @@
-FROM registry.svc.ci.openshift.org/ocp/builder:rhel-8-base-openshift-4.7
+FROM docker.io/centos:centos8
 
 RUN yum update -y \
  && yum install -y qemu-img jq xz \
